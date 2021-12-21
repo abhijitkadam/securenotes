@@ -1,0 +1,75 @@
+
+A] Packages
+https://v5.reactrouter.com/web/guides/quick-start
+npm install --save react-router-dom
+
+https://react-hook-form.com/get-started
+npm install --save react-hook-form
+
+https://react-hooks-testing-library.com/usage/basic-hooks
+npm install --save-dev @testing-library/react-hooks
+
+https://materializecss.com/getting-started.html
+npm install --save materialize-css@next
+
+https://firebase.google.com/docs/web/setup
+https://firebase.google.com/docs/firestore/quickstart
+npm install --save firebase
+
+https://github.com/vultix/ts-results
+npm install --save ts-results
+
+https://github.com/immutable-js/immutable-js
+npm install immutable
+
+https://github.com/nextapps-de/flexsearch
+npm install --save flexsearch
+
+https://github.com/sudodoki/copy-to-clipboard
+npm i --save copy-to-clipboard
+
+https://github.com/reactjs/react-autocomplete
+npm install --save react-autocomplete
+
+https://github.com/ricmoo/aes-js
+npm install --save aes-js
+
+npm install --save md5
+npm install --save pbkdf2
+
+
+npm install --save uuid
+
+
+
+B] React testing
+
+// to run test file run following, "notesservice.test.ts" is file
+File:
+    npm test -- notesservice.test
+
+Test case:
+    npm test -- -t test_case_name
+
+https://react-hooks-testing-library.com/usage/basic-hooks
+
+https://stackoverflow.com/questions/63319638/firestore-internal-assertion-failed-unexpected-state-when-unit-testing-with-j
+
+You should change Jest's test environment from the default jsdom to node using jest --env=node or by setting the testEnvironment option to node in your Jest config.
+
+or in npm package:
+
+    "test": "react-scripts test --env=node",
+
+
+3] Generate typescipt def:
+
+npx -p typescript tsc node_modules/flexsearch/src/*.js --declaration --allowJs --emitDeclarationOnly --outDir node_modules/@types/flexsearch
+
+Then import:
+import Document from 'flexsearch/document';
+
+
+
+
+

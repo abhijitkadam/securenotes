@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 40px;
+}
+
+.inputfield {
+  width: 100%;
+  padding: 10px;
+  padding-left: 40px !important;
+}
